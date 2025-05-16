@@ -31,7 +31,7 @@ class ActionIntentDetected {
 
 
 
-function DetectIntent(todays_date: string, use_case_domain: string,intent_workflows: IntentWorkflowGuideline, chat: ChatMessage[]) -> string{
+function DetectIntent(todays_date: string, use_case_domain: string,intent_workflows: IntentWorkflowGuideline, chat: ChatMessage[]) -> ActionClarification | ActionIntentDetected{
   // Specify a client as provider/model-name
   // you can use custom LLM params with a custom client name from clients.baml like "client CustomHaiku"
   client "openai/gpt-4.1" 
