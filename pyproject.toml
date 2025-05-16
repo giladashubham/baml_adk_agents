@@ -1,7 +1,7 @@
 [project]
-name = "baml-agents"
+name = "baml_adk_agents"
 version = "0.1.0"
-description = "Add your description here"
+description = "BAML + adk agents"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
